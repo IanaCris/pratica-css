@@ -1,0 +1,24 @@
+/**********
+FLEX-DIRECTION: row(padrão), column, row-reverse, column-reverse
+ALIGN-ITEMS: flex-start(padrão), flex-end, center,  - o align-items trabalha em sentido contrario a flex-direction
+JUSTIFY-CONTENT: flex-start, flex-end, center, space-between, space-around - trabalha no mesmo sentido de flex-direction
+FLEX-GROW:1 - permite que o elemento seja aumentado para caber no container pai
+FLEX-SHRINK: 1 - permite que o elemento seja dinimuido(esprimido) para caber no container pai
+FLEX: 1 - engloba o flex-grow e flex-shrink
+FLEX-WRAP: wrap, wrap-reverse - faz a quebra de linha
+ALIGN-CONTENT: flex-start, flex-end, center, space-between, space-around - mesmas propiedades do justify-content, alinhamento para todo o container
+ORDER: 0,1,2.. - faz a ordenação dos elementos no container
+***********/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e6ecf0;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
